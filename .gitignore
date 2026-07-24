@@ -4,49 +4,51 @@ node_modules/
 venv/
 .venv/
 __pycache__/
-.julia/
-zig*/
+*.egg-info/
 
 # Build artifacts
 dist/
 build/
 target/
-*.pyc
-*.class
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
 *.swp
 *.swo
+
+# Logs and temp files
+*.log
 *.tmp
 
-# System files
+# OS
 .DS_Store
 Thumbs.db
 
-# Logs and cache
-*.log
+# Compiled files
+*.pyc
+*.class
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.obj
+*.out
+
+# Testing and coverage
 .coverage
 coverage/
 htmlcov/
 .mypy_cache/
 .pytest_cache/
-.gradle/
 
-# Compressed files
+# Archives
 *.zip
 *.gz
 *.tar
